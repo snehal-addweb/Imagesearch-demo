@@ -60,7 +60,7 @@
                 top: 10px;
                 right: 15px;
                 color: white;
-                font-size: 35px;
+                font-size: 35px;    
                 cursor: pointer;
             }
         </style>
@@ -81,7 +81,7 @@
                     <?php
 
                         $image_name = explode('/', $img);
-                        $image = $image_name[9];
+                        $image = $image_name[7];
 
                     ?>
                     <div class="column">
